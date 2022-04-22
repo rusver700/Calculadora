@@ -13,7 +13,7 @@ body{
 h1{
     color: #fff;
     position: absolute;
-    top: 10px;
+    top: 5px;
     
 }
 input{
@@ -55,11 +55,9 @@ input{
     border:rgb(106, 123, 129);
     border-width: px;
     border-style: solid;
-    padding: 40px 10px;
+    padding: 25px 10px;
     position:absolute;
     top:150px;
-    
-   
 }
 .principalcolor{
     background-color: black;
@@ -83,7 +81,7 @@ input{
 .rus-logo {
     width:75px;/*largura*/
     position: absolute;
-    top: 70px;
+    top: 60px;
     right:80px;
    /* border-radius: 50px; /*Borda do elemento 'circular'*/
     background: linear-gradient( gray,white,rgb(7, 48, 114));
