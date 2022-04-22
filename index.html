@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+       <div class="rus-logo">
+              <header><br><i><strong>R@S<br>@rusver700<br>➕😎➖</strong></i></header>
+       </div>
+
+       <h1>Calculadora</h1>
+
+    <div class="principal">
+        <form action="" name="Calculadora">
+
+         <input type="text" class="text principalcolor" name="text1" disabled>
+         <input type="text" class="textc principalcolor" name="text12" value="C" 
+                onclick="location.reload()"><br>
+
+         <input type="button" class="num principalcolor" name="btn9" value="9" 
+                onclick="displaynum(btn9.value)">
+         <input type="button" class=" num principalcolor" name="btn8" value="8" 
+                onclick="displaynum(btn8.value)">
+         <input type="button" class="num principalcolor" name="btn7" value="7" 
+                onclick="displaynum(btn7.value)">
+         <input type="button" class="num somar" name="addbtn" value="+" 
+                onclick="displaynum(addbtn.value)"><br>
+
+         <input type="button" class="num principalcolor" name="btn6" value="6" 
+                onclick="displaynum(btn6.value)">
+         <input type="button" class="num principalcolor" name="btn5" value="5" 
+                onclick="displaynum(btn5.value)">
+         <input type="button" class="num principalcolor" name="btn4" value="4" 
+                onclick="displaynum(btn4.value)">
+         <input type="button" class="num subtrair" name="subbtn" value="-" 
+                onclick="displaynum(subbtn.value)"><br>
+
+         <input type="button" class="num principalcolor" name="btn3" value="3" 
+                onclick="displaynum(btn3.value)">
+         <input type="button" class="num principalcolor" name="btn2" value="2" 
+                onclick="displaynum(btn2.value)">
+         <input type="button" class="num principalcolor" name="btn1" value="1" 
+                onclick="displaynum(btn1.value)">
+         <input type="button" class="num multiplicar" name="multbtn" value="*" onclick="displaynum(multbtn.value)"><br>
+
+         <input type="button" class="num principalcolor" name="btnponto" value="." 
+                onclick="displaynum(btnponto.value)">
+         <input type="button" class="num principalcolor" name="btn0" value="0" 
+                onclick="displaynum(btn0.value)">
+         <input type="button" class="num igual" name="igualbtn" value="=" 
+                onclick="text1.value = eval (text1.value)"><!--eval() é uma função de propriedade do objeto global (window) . O argumento da função eval() é uma string. Se a string representa uma expressão, eval() avalia a expressão. Se o argumento representa uma ou mais declarações em JavaScript, eval() avalia as declarações-->
+         <input type="button" class="num dividir" name="dividirbtn" value="/" 
+                onclick="displaynum(dividirbtn.value)">
+         
+
+        </form>
+
+    </div>
+    <footer>@Rusver700</footer>
+</body>
+
+<script src="script.js"></script>
+</html>
